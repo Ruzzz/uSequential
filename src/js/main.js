@@ -3,9 +3,9 @@
     function setHandler(element, name, handler)
     {
         if (element.addEventListener)
-            element.addEventListener(name, handler, false);
+            element.addEventListener(name, handler, false);  // IE 10
         else
-            element.attachEvent("on" + name, handler);
+            element.attachEvent("on" + name, handler);  // IE 9
     }
 
     function init() {
@@ -26,7 +26,7 @@
     }
 
     if (window.addEventListener)
-        window.addEventListener('DOMContentLoaded', init, false);
+        window.addEventListener('DOMContentLoaded', init, false);  // IE 10
     else
-        window.attachEvent('onload', init);
+        window.attachEvent('onload', init);  // IE 9
 } ());
