@@ -1,7 +1,8 @@
 uSequential
 ===========
 
-\[EN\]
+**\[EN\]**
+
 Small extension for uTorrent. Allows to enable hidden settings for sequential download in uTorrent.
 
 - [Screenshot](https://lh5.googleusercontent.com/-PdIa-yT-3H8/UUp-PQCKBkI/AAAAAAAANKo/8oXxVOnqnP0/s489/uSequential-no-css.PNG).
@@ -13,7 +14,11 @@ Small extension for uTorrent. Allows to enable hidden settings for sequential do
 - Add **7za.exe** in the environment variable **PATH**
 - Run **build\build.bat**
 
-\[RU\]
+
+----------
+
+**\[RU\]**
+
 Небольшое расширение для uTorrent, которое позволяет включать скрытые настройки для последовательного скачивания файлов.
 
 - [Скриншот](https://lh5.googleusercontent.com/-PdIa-yT-3H8/UUp-PQCKBkI/AAAAAAAANKo/8oXxVOnqnP0/s489/uSequential-no-css.PNG).
