@@ -1,32 +1,26 @@
-(function ()
-{
-    function init()
+(function () {
+
+    function setHandler(element, name, handler)
     {
-        var PEACE_OPTION = "bt.sequential_download";
-        var FILES_OPTION = "bt.sequential_files";
+        if (element.addEventListener)
+            element.addEventListener(name, handler, false);
+        else
+            element.attachEvent("on" + name, handler);
+    }
 
-        var chbPeace = document.getElementById("sequential-download");
-        var chbFiles = document.getElementById("sequential-files");
-
-        // update ui
+    function init() {
+        var PEACE_OPTION = "bt.sequential_download",
+            FILES_OPTION = "bt.sequential_files",
+            chbPeace = document.getElementById("sequential-download"),
+            chbFiles = document.getElementById("sequential-files");
+        
         chbPeace.checked = btapp.settings.get(PEACE_OPTION);
         chbFiles.checked = btapp.settings.get(FILES_OPTION);
 
-        function setHandler(element, name, handler)
-        {
-            if (element.addEventListener)
-                element.addEventListener(name, handler, false);
-            else
-                element.attachEvent(name, handler);
-        }
-
-        setHandler(chbPeace, "onclick", function ()
-        {
+        setHandler(chbPeace, "click", function() {
             btapp.settings.set(PEACE_OPTION, chbPeace.checked);
         });
-
-        setHandler(chbFiles, "onclick", function ()
-        {
+        setHandler(chbFiles, "click", function() {
             btapp.settings.set(FILES_OPTION, chbFiles.checked);
         });
     }
