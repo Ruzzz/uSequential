@@ -1,7 +1,7 @@
 name:uSequential
 version:0.05
 publisher:Ruzzz
-update_url:TODO_URL/uSequential.btapp
+update_url:https://github.com/Ruzzz/uSequential/raw/master/build/uSequential.btapp
 description:Allows to enable hidden settings for sequential download.
 access:restricted
 release_date:21-Mar-2013
