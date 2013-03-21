@@ -1,0 +1,78 @@
+{
+    "name": "apps-sdk",
+    "bt:libs": [
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/firebug.js",
+            "name": "firebug"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/json2.js",
+            "name": "json2"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/jquery.js",
+            "name": "jquery"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/underscore.js",
+            "name": "underscore"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/jquery.json.js",
+            "name": "jquery.json"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/jstorage.js",
+            "name": "jstorage"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/object.js",
+            "name": "object"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/sprintf.js",
+            "name": "sprintf"
+        }
+    ],
+    "bt:publisher": "BitTorrent, Inc.",
+    "directories": {
+        "test": "test",
+        "src": "src",
+        "lib": "lib",
+        "doc": "doc"
+    },
+    "author": "Thomas Rampelberg <thomas@bittorrent.com>",
+    "repositories": [
+        {
+            "url": "git://github.com/bittorrent/apps-sdk.git",
+            "type": "git"
+        }
+    ],
+    "site": "http://apps-sdk.bittorrent.com",
+    "bt:update_url": "http://apps-sdk.bittorrent.com",
+    "maintainers": [
+        {
+            "name": "Thomas Rampelberg",
+            "email": "thomas@bittorrent.com"
+        }
+    ],
+    "version": "0.2",
+    "bt:description": "The apps sdk provides a framework for building rich javascript, html, css applications to be run from within the BitTorrent client.",
+    "keywords": [
+        "bittorrent",
+        "griffin",
+        "utorrent",
+        "application",
+        "apps",
+        "sdk"
+    ],
+    "licenses": [
+        {
+            "url": "http://www.opensource.org/licenses/bsd-license.php",
+            "type": "New BSD License"
+        }
+    ],
+    "bt:release_date": "June 1, 2010",
+    "description": "The apps sdk provides a framework for building rich javascript, html, css applications to be run from within the BitTorrent client.",
+    "bt:package": true
+}

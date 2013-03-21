@@ -1,0 +1,12 @@
+body {
+	font-family: Calibri, Arial;
+}
+
+label {
+	font-weight: bold;
+}
+
+#version {
+  color: gray;
+  font-size: 75%;
+}
