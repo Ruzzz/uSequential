@@ -16,6 +16,6 @@ uSequential
 - Запустить **build\build.bat**
 
 [screenshot]:https://lh5.googleusercontent.com/-PdIa-yT-3H8/UUp-PQCKBkI/AAAAAAAANKo/8oXxVOnqnP0/s489/uSequential-no-css.PNG
-[faq]:http://ruzzz.github.com/uSequential
+[faq]:http://ruzzzua.blogspot.com/2010/02/utorrent-sequential-download.html
 [download]:https://github.com/Ruzzz/uSequential/raw/master/build/uSequential.btapp
 [7za]:http://www.7-zip.org/download.html
