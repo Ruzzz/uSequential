@@ -1,4 +1,5 @@
-rem Dependences: http://www.7-zip.org
+@echo off
+:: Dependences: http://www.7-zip.org
 
 set EXT_FILENAME=uSequential.btapp
 erase %EXT_FILENAME%
