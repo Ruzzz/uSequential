@@ -15,7 +15,7 @@ uSequential
 - Добавить **7za.exe** в переменную окружения **PATH**
 - Запустить **build\build.bat**
 
-[screenshot]:https://lh5.googleusercontent.com/-PdIa-yT-3H8/UUp-PQCKBkI/AAAAAAAANKo/8oXxVOnqnP0/s489/uSequential-no-css.PNG
+[screenshot]:https://github.com/Ruzzz/uSequential/raw/master/docs/uSequential.png
 [faq]:http://ruzzzua.blogspot.com/2010/02/utorrent-sequential-download.html
 [download]:https://github.com/Ruzzz/uSequential/raw/master/build/uSequential.btapp
 [7za]:http://www.7-zip.org/download.html
